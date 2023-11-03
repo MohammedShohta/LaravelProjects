@@ -20,3 +20,9 @@ use Illuminate\Support\Facades\Route;
 // });
 Route::get('/',[WelcomeController::class,'index']);
 
+
+Route::get('/test',function()
+{
+    return view("test");
+});
+
